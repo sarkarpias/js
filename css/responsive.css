@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1199.9px){
+    .header-menu ul li a {
+        padding: 15px 10px;
+    }
+}
+@media only screen and (max-width: 991.9px){
+    .header-left .header-nav{
+        display: block;
+    }
+    .header-menu{
+        display: none;
+    }
+    .header-menu ul {
+        text-align: left;
+        background: #676767;
+    }
+    .header-menu ul li{
+        display: block;
+        border-bottom: 1px solid #000;
+    }
+    .header-btn {
+        margin-top: 70px;
+    }
+    .main-content h2 {
+        font-size: 39px;
+    }
+    .main-content p {
+        margin: 40px 0;
+        font-size: 20px;
+    }
+    .header-menu ul li a:hover{
+        color: #101010;
+        transition: .5s;
+        background-color: #579e90;
+    }
+}
